@@ -11,9 +11,7 @@
 
 4. Все изображения из папки src/img сжимает и преобразует в формат webp (кроме svg).
 
-5. Все шрифты с папки src/fonts преобразует в формат woff и woff2, в папке src/scss/base создается файл fonts.scss(с кодом подключения шрифтов) который подключается в style.scss через импорт @import "./base/fonts"; .
-
-так же плагин автоматически считывает font weight.
+5. Все шрифты с папки src/fonts преобразует в формат woff и woff2, в папке src/scss/base создается файл fonts.scss(с кодом подключения шрифтов) который подключается в style.scss через импорт @import "./base/fonts", плагин автоматически считывает font weight.
 
 6. Создается svg sprite,берет svg файлы из  src/svgicons и создает спрайт в папке dist/img/icons/icons.svg.
 
